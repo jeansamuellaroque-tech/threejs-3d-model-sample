@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Espacio para navbar */
+#scene-container {
+  width: 100%;
+  height: calc(100vh - 112px); /* navbar + footer */
+  margin-top: 56px;
+}
+
+/* Footer fijo abajo */
+footer {
+  height: 56px;
+}
